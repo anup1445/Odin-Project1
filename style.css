@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  gap: 30px;
+  /* justify-content: flex-start; */
+  margin-left: 80px;
+  justify-content: space-around;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+  color: white;
+}
+
+header .links {
+  display: flex;
+  font-size: 1rem;
+  gap: 20px;
+  list-style: none;
+  color: white;
+  margin-top: 10px;
+}
+
+.contentNImage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 105px;
+  width: 380px;
+}
+.content h1 {
+  color: white;
+}
+
+.content p {
+  font-size: 0.9rem;
+  color: rgb(163, 151, 151);
+}
+
+.image {
+  height: 150px;
+  width: 250px;
+  padding-top: 50px;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: rgb(29, 127, 127);
+  color: white;
+}
+
+.content button {
+  width: 74px;
+  margin-top: 5px;
+  background: #9b9be0;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+}
+.main-container {
+  height: 300px;
+  background-color: rgb(35, 28, 56);
+}
+
+/* Info container  */
+.information {
+  height: 220px;
+  background: #9b9be0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.info-image {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+.info {
+  max-width: 200px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Quote section  */
+.quote {
+  height: 150px;
+  text-align: left;
+  border: 2px solid red;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.quote .content {
+  margin-left: 240px;
+  font-style: italic;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.container {
+  height: 100px;
+  display: flex;
+  text-align: left;
+  margin: 67px 77px;
+  border-radius: 10px;
+  background: rgb(128, 128, 238);
+}
+
+.form-container button {
+  height: fit-content;
+  margin-top: 30px;
+  margin-left: 100px;
+  border-radius: 5px;
+  padding: 3px 17px;
+  background: rgb(128, 128, 238);
+  border: 1px solid white;
+  color: white;
+}
+
+.contact-container {
+  padding: 20px 113px;
+  height: 80px;
+}
+
+.contact-container h3 {
+  color: white;
+}
+
+.contact-container p {
+  color: rgb(142, 151, 159);
+}
+.content > .author {
+  padding-left: 150px;
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(35, 28, 56);
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 0.8rem;
+}
